@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+      <div class="title">
+      <h1>学園の杜<br>
+        岩手県立大学</h1>
+        </div>
+      <div class="category">
+          <div class="category-contents">
+              <img src="circle.png">
+              <p>サークル<br>
+                県大にはたくさんのサークルがあり活動しています！</p>
+          </div>
+          <div class="category-contents">
+              <img src="event.png">
+              <p>イベント<br>
+                大学祭や夢灯りなど楽しいイベントが行われています！</p>
+          </div>
+          <div class="category-contents">
+              <img src="coop.jpg">
+              <p>生協<br>
+                生協や食堂情報はコチラから</p>
+          </div>
+      </div>
+
+      <div class="information">
+        <h2>事務連絡</h2>
+          <div class="info-contents">
+              <p>2022年2月19日
+                  新型コロナウイルス最新情報</p>
+          </div>
+          <div class="info-contents">
+            <p>2022年2月19日
+                2021年7月までの落とし物について</p>
+          </div>
+          <div class="info-contents">
+            <p>2022年2月16日
+                奨学金に関する情報</p>
+          </div>
+      </div>
+      <div class="tub">
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><a href="#ttle">ホーム</a></td>
+                <td><a href="#skills">検索</a></td>
+                <td><a href="#hobby">現在地マップ</a></td>
+                <td><a href="#works">マイページ</a></td>
+            </tr>
+        </table>
+      </div>
+      <style>
+          @media(max-width:600px){
+            h1{
+                width: 100%; /*absoluteで位置を設定するときに、幅と高さは必ず必要*/
+    color: rgb(36, 138, 255);
+    text-shadow: 1px 0 0 #333, 0 1px 0 #333, -1px 0 0 #333, 0 -1px 0 #333;
+    
+    font-weight: bold;
+    text-align: center;
+
+    /*位置の設定 - 上下中央寄せ*/
+    
+    margin: 0 auto;
+    
+          }
+          .title{
+            
+            background-image: url(campus.jpg);
+  background-attachment: inherit;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 1);
+ 
+  
+  padding: 30px;
+          }
+          
+          .category{
+              display : flex;
+              overflow-x:scroll;
+              padding: 20px;
+          }
+          .category-contents{
+              padding-right: 20px;
+          }
+          img {
+              height: 200px;
+              width: 250px;
+          }
+          
+          h2{
+              text-align: center;
+          }
+          .information{
+              width: 80%;
+              border: solid 2px;
+              margin: 0 auto;
+          }
+          .info-contents{
+              width: 100%;
+              border-top: solid 1px;
+          }
+          .info-contents p{
+            color: rgb(18, 1, 255);
+          }
+          .tub{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+          }
+
+          .tub td{
+            border: solid 1px;
+            text-align: center;
+            padding: 5px 0px;
+            width: 25%;
+          }
+
+          .tub a{
+            /*letter-spacing: 3px;*/
+            display: block;
+            text-decoration: none;
+            color: #000;
+            font-size: 10px;
+          }
+        }
+    </style>
+    </body>
+        
+
+
+
+</html>
